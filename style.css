@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to bottom, black,green);
+    /* background-color: beige; */
+    /* box-shadow: 5px gray; */
+}
+h1{
+    text-align: center;
+    background-color:rgb(128, 173, 61);
+    color: white;
+    margin: 0 auto;
+    /* width: 350px; */
+    border: 5px solid silver;
+    border-radius: 5px;
+    font-size: 40px;
+}
+h1>sup{
+    font-size: 15px;
+}
+
+table{
+    border: 2px solid white;
+    margin: 0 auto;
+    text-align: center;
+ /* background-color: purple; */
+ border: 5px solid silver;
+ border-radius: 10px;
+ /* background-image: linear-gradient(red yellow green); */
+    box-shadow: 10px 9px 50px silver;
+}
+table>thead>tr>th{
+        background-color: rgb(168, 194, 128);
+        color: black;
+    font-size: 30px;
+    }
+    table>thead>tr>th:hover{
+        color:greenyellow;
+    background-color:rgb(97, 139, 141);    
+    }
+table>tbody>tr>th{
+    
+    text-align: center;
+    margin: 0 auto;
+    color:white;
+    /* background-color: burlywood; */
+    background-color: rgb(168, 194, 128);
+    color: black; 
+    border-radius: 10px;
+    width: 600px;
+    font-size: 30px;   
+}
+table>tbody>tr>th:hover{
+    color:greenyellow;
+    background-color:rgb(97, 139, 141);
+}
+table>tbody>tr>td{
+    border: 1px solid white;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+table>tbody>tr>td:hover{
+
+    /* color: peru; */
+    /* font-size: 40px; */
+    /* background-color:beige ; */
+color:yellowgreen;
+background-color: black;
+}
+table>tfoot>tr>td:hover{
+   
+    font-size: 20px;
+    color: goldenrod;
+    background-color:rgb(75, 75, 97);
+}
+marquee{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-left:185px;
+    width: 600px;
+    background-color:black;
+    color: yellowgreen;
+    font-size: 25px;
+}
